@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path,include
-from API.views import CompanyViewSet
-from rest_framework.routers import routers
+from api.views import CompanyViewSet
+from rest_framework import routers
 
 
 routers = routers.DefaultRouter()

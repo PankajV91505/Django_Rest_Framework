@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from rest_framework import viewsets
-from API.models import Company
-from API.serializers import CompanySerializer
+from api.models import Company
+from api.serializers import CompanySerializer
 
 # Create your views here.
 
